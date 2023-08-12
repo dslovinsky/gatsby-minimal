@@ -1,9 +1,11 @@
 import * as React from 'react';
+import SEO from '../components/SEO';
+import Home from '../components/Home';
 
 const IndexPage = () => {
-  return <main>Homepage</main>;
+  return <Home />;
 };
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <SEO title="Homepage" />;
